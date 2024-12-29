@@ -24,19 +24,19 @@ const FeaturedCards = () => {
       title: 'The Story',
       description: 'Discover the emotional journey of Greg Reeves and the creation of Project Amoratus.',
       to: '/story',
-      image: <img src="/images/story-card-image.jpg" alt="Story" className="w-full h-full object-cover rounded-lg" />,
+      image: <img src="/images/story-card-image.jpg" alt="Image representing the story of Project Amoratus" className="w-full h-full object-cover rounded-lg" />,
     },
     {
       title: 'The Technology',
       description: 'Explore the groundbreaking technologies behind Project Amoratus, from quantum computing to neural interfaces.',
       to: '/technology',
-      image: <img src="/images/technology-card-image.jpg" alt="Technology" className="w-full h-full object-cover rounded-lg" />,
+      image: <img src="/images/technology-card-image.jpg" alt="Image representing the advanced technology powering Project Amoratus" className="w-full h-full object-cover rounded-lg" />,
     },
     {
       title: "Greg's Journal",
       description: 'Delve into the personal notes and technical logs of Greg Reeves, the creator of Project Amoratus.',
       to: '/journal',
-      image: <img src="/images/journal-card-image.jpg" alt="Journal" className="w-full h-full object-cover rounded-lg" />,
+      image: <img src="/images/journal-card-image.jpg" alt="Image representing Greg's personal notes and logs" className="w-full h-full object-cover rounded-lg" />,
     },
   ];
 

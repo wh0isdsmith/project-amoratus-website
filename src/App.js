@@ -6,7 +6,7 @@ import Home from './components/pages/Home';
 import Story from './components/pages/Story';
 import Technology from './components/pages/Technology';
 import Journal from './components/pages/Journal';
-import About from './components/pages/About';
+import About from './components/pages/About/About';
 
 function App() {
   return (

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const IntroSection = () => {
@@ -8,7 +7,7 @@ const IntroSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-6">
           Welcome to Project Amoratus
         </h2>
-        <p className="text-lg text-gray-300 text-center max-w-3xl mx-auto">
+        <p className="text-lg text-gray-300 text-center max-w-prose mx-auto">
           Project Amoratus is a deeply personal endeavor by Greg Reeves, a
           former musician turned tech whiz. Driven by a desire to preserve his
           most cherished memories, Greg built a revolutionary system that
