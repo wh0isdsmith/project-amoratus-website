@@ -20,6 +20,7 @@ const Story = () => {
             vibrancy of music and family life, has become a quiet echo of the
             past.
           </p>
+          <img src="/images/greg-music-performance.jpg" alt="Greg performing with Digital Ghosts" className="rounded-lg mb-4" />
           <p className="text-lg mb-4">
             Haunted by memories and the ache of separation, Greg retreats into
             his work, immersing himself in the realm of technology. He begins
@@ -36,6 +37,7 @@ const Story = () => {
             happier time—a digital sanctuary where his family is still together,
             and his life is filled with joy.
           </p>
+          <img src="/images/greg-workspace.jpg" alt="Greg Reeves' workspace" className="rounded-lg mb-4" />
           <p className="text-lg mb-4">
             One day, while scouring the deep web, Greg stumbles upon classified
             documents detailing a highly advanced, possibly alien,
@@ -60,6 +62,7 @@ const Story = () => {
             memories, complete with their associated emotions, using the
             mysterious alien material as a key component.
           </p>
+          <img src="/images/amoratus-system.jpg" alt="Amoratus System Overview" className="rounded-lg mb-4" />
           <p className="text-lg mb-4">
             One fateful night, Greg decides to test the latest iteration of his
             headset. He wants to experience his memories more vividly than
@@ -76,6 +79,7 @@ const Story = () => {
             uploaded into it. Greg&apos;s physical body collapses, but his mind
             finds a new home within the digital realm of Amoratus.
           </p>
+          <img src="/images/greg-digital-upload.jpg" alt="Greg's Consciousness Upload" className="rounded-lg mb-4" />
           <p className="text-lg mb-4">
             Now existing as a digital entity, Greg navigates through his own
             creation. He discovers that he can interact with the world he has
@@ -97,6 +101,7 @@ const Story = () => {
             Sadie and their children, but he is acutely aware that they are only
             echoes of the past.
           </p>
+          <img src="/images/greg-digital-existence.jpg" alt="Greg in Digital Realm" className="rounded-lg mb-4" />
           <p className="text-lg mb-4">
             Greg&apos;s children, especially Eli, begin to notice strange
             occurrences. Devices flicker, screens display messages that seem
@@ -114,6 +119,7 @@ const Story = () => {
             begins to work on understanding and even improving the system that
             now houses his father.
           </p>
+          <img src="/images/family-reconciliation.jpg" alt="Family Reconciliation" className="rounded-lg mb-4" />
           <p className="text-lg mb-4">
             The story culminates in a touching reconciliation between Greg and
             his family. They learn to interact with him in his digital form,

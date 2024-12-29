@@ -10,18 +10,21 @@ const About = () => {
             Project Amoratus is a deeply personal endeavor by Greg Reeves, a former musician turned tech whiz. Driven by a desire to preserve his most cherished memories, Greg built a revolutionary system that blends quantum computing, neural networks, and augmented reality. This is a journey into the heart of a machine built on love, loss, and the enduring power of memory.
           </p>
         </section>
-        <section className="mb-8 flex items-center">
-          <div className="w-1/3 pr-8">
+        <section className="mb-8 flex flex-col md:flex-row items-center">
+          <div className="w-full md:w-1/3 pr-8 mb-6 md:mb-0">
             <img
-              src="/images/greg-reeves.jpg"
+              src="/images/greg-reeves-placeholder.jpg"
               alt="Greg Reeves"
-              className="rounded-lg"
+              className="rounded-lg shadow-lg"
             />
           </div>
-          <div className="w-2/3">
+          <div className="w-full md:w-2/3">
             <h2 className="text-2xl font-semibold text-white mb-4">Meet Greg Reeves</h2>
+            <p className="text-lg mb-4">
+              Greg Reeves is the visionary behind Project Amoratus. With a background in music as the lead guitarist for the band "Digital Ghosts," Greg transitioned into technology driven by personal loss and a quest to preserve memories that matter most. His unique blend of artistic creativity and technical expertise has been instrumental in developing the sophisticated systems at the core of Project Amoratus.
+            </p>
             <p className="text-lg">
-              Greg Reeves is the visionary behind Project Amoratus. With a background in music and technology, Greg's unique perspective has driven him to create a system that transcends traditional boundaries. His dedication to preserving memories and exploring the depths of human emotion through technology is at the core of Project Amoratus.
+              Beyond his technical prowess, Greg is known for his deep empathy and relentless pursuit of knowledge. His personal experiences have shaped the emotional core of Project Amoratus, ensuring that the technology not only advances scientific boundaries but also touches the human spirit. Greg's dedication to his family and his ability to merge emotion with innovation make him a remarkable figure in both the technological and personal realms.
             </p>
           </div>
         </section>

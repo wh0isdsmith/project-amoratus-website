@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const QuantumMindSection = () => {
     const [showModal, setShowModal] = useState(false);
     const [modalContent, setModalContent] = useState('');
-    const [image] = useImage('/images/quantum-processing-schematic.svg');
+    const [image] = useImage('/images/quantum-mind-section.svg'); // Updated path
 
     const handleMouseEnter = (e) => {
         const container = e.target.getStage().container();
@@ -28,7 +28,8 @@ const QuantumMindSection = () => {
             <Stage width={800} height={600}>
                 <Layer>
                     <Image image={image} />
-
+                    
+                    {/* Interactive Circle 1 */}
                     <Circle
                         x={380}
                         y={250}
@@ -36,18 +37,95 @@ const QuantumMindSection = () => {
                         fill="transparent"
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
-                        onClick={() => handleCircleClick('This is the description for the first circle.')}
-                        onTap={() => handleCircleClick('This is the description for the first circle.')}
+                        onClick={() => handleCircleClick('Description for Component 1')}
+                        onTap={() => handleCircleClick('Description for Component 1')}
                     />
+                    <Text
+                        x={380}
+                        y={290}
+                        text="Component 1"
+                        fontSize={14}
+                        fill="white"
+                        align="center"
+                        width={60}
+                    />
+
+                    {/* Interactive Circle 2 */}
+                    <Circle
+                        x={500}
+                        y={400}
+                        radius={30}
+                        fill="transparent"
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                        onClick={() => handleCircleClick('Description for Component 2')}
+                        onTap={() => handleCircleClick('Description for Component 2')}
+                    />
+                    <Text
+                        x={500}
+                        y={440}
+                        text="Component 2"
+                        fontSize={14}
+                        fill="white"
+                        align="center"
+                        width={60}
+                    />
+
+                    {/* ...additional interactive components... */}
                 </Layer>
             </Stage>
 
             {showModal && (
-                <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', backgroundColor: 'white', padding: '20px', borderRadius: '10px', zIndex: 100 }}>
+                <div className="modal">
                     <p>{modalContent}</p>
                     <button onClick={() => setShowModal(false)}>Close</button>
                 </div>
             )}
+
+            {/* Code Example Section */}
+            <section className="mt-8">
+                <h3 className="text-xl font-semibold text-white mb-4">QuantumMind Interface Example</h3>
+                <pre className="bg-gray-800 text-yellow-400 p-4 rounded-lg overflow-auto">
+{`// QuantumMindInterface.js
+import React from 'react';
+
+/**
+ * QuantumMindInterface handles the interaction between human neural patterns and QuantumMind material.
+ */
+class QuantumMindInterface {
+  constructor() {
+    this.neuralPatterns = [];
+  }
+
+  /**
+   * Connects to the QuantumMind material.
+   */
+  connect() {
+    // Connection logic here
+  }
+
+  /**
+   * Processes incoming neural data.
+   * @param {Object} data - Neural data from the user.
+   */
+  processNeuralData(data) {
+    this.neuralPatterns.push(data);
+    // Further processing
+  }
+
+  /**
+   * Retrieves stored neural patterns.
+   * @returns {Array} Stored neural patterns.
+   */
+  getNeuralPatterns() {
+    return this.neuralPatterns;
+  }
+}
+
+export default QuantumMindInterface;
+`}
+                </pre>
+            </section>
         </>
     );
 };

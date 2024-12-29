@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /* Handwriting font */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -49,14 +51,41 @@ code {
   }
 }
 
+.journal-entry__title {
+  font-family: 'Indie Flower', cursive;
+}
+
+.journal-entry__date {
+  font-family: 'Indie Flower', cursive;
+}
+
+.journal-entry__content {
+  font-family: 'Indie Flower', cursive;
+}
+
 .modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 20px;
   border-radius: 10px;
   z-index: 100;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Indie Flower', cursive;
+}
+
+.modal button {
+  background-color: #f59e0b;
+  color: #1f2937;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal button:hover {
+  background-color: #d97706;
 }

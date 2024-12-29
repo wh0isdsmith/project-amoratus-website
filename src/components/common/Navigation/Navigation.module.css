@@ -1,0 +1,46 @@
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 2rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif; /* Example futuristic font */
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: #f59e0b; /* Soft yellow accent */
+  transform: scale(1.05);
+}
+
+.navLink::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f59e0b;
+  transition: width 0.3s;
+}
+
+.navLink:hover::after,
+.navLink:focus::after {
+  width: 100%;
+}
