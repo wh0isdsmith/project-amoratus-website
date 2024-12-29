@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main Headset Shell -->
+    <path d="M 100 200 C 100 100, 700 100, 700 200 C 700 300, 100 300, 100 200" 
+          fill="none" stroke="#333" stroke-width="3"/>
+    
+    <!-- Quantum Processing Unit -->
+    <rect x="350" y="150" width="100" height="60" fill="#6495ED" stroke="#000"/>
+    <text x="365" y="185" font-size="12">Quantum CPU</text>
+    
+    <!-- Neural Sensor Array -->
+    <path d="M 150 180 C 150 160, 650 160, 650 180 C 650 200, 150 200, 150 180" 
+          fill="#87CEEB" stroke="#000"/>
+    <text x="340" y="230" font-size="12">Neural Sensor Array</text>
+    
+    <!-- Cooling System -->
+    <rect x="200" y="240" width="80" height="40" fill="#90EE90" stroke="#000"/>
+    <text x="205" y="265" font-size="10">Cooling System</text>
+    
+    <!-- Power Unit -->
+    <rect x="520" y="240" width="80" height="40" fill="#FFB6C1" stroke="#000"/>
+    <text x="530" y="265" font-size="10">Power Unit</text>
+    
+    <!-- Display Systems -->
+    <circle cx="250" cy="180" r="20" fill="#DDA0DD" stroke="#000"/>
+    <circle cx="550" cy="180" r="20" fill="#DDA0DD" stroke="#000"/>
+    <text x="235" y="155" font-size="10">Display</text>
+    <text x="535" y="155" font-size="10">Display</text>
+    
+    <!-- Connection Lines -->
+    <line x1="400" y1="210" x2="400" y2="240" stroke="#333"/>
+    <line x1="400" y1="150" x2="400" y2="180" stroke="#333"/>
+    <line x1="350" y1="180" x2="270" y2="180" stroke="#333"/>
+    <line x1="450" y1="180" x2="530" y2="180" stroke="#333"/>
+    
+    <!-- Labels -->
+    <text x="300" y="100" font-size="16" font-weight="bold">GregOS Neural Interface Headset</text>
+</svg>

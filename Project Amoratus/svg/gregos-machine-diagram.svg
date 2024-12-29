@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main System Cabinet -->
+    <rect x="100" y="50" width="800" height="700" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    
+    <!-- Quantum Processing Unit Chamber -->
+    <rect x="150" y="100" width="300" height="200" fill="#ADD8E6" stroke="#000"/>
+    <text x="200" y="200" font-size="16">Quantum Processing Chamber</text>
+    <rect x="170" y="120" width="260" height="160" fill="#87CEEB" stroke="#000"/>
+    <text x="180" y="160" font-size="12">Cryogenic Cooling System</text>
+    
+    <!-- Neural Processing Array -->
+    <rect x="500" y="100" width="350" height="200" fill="#98FB98" stroke="#000"/>
+    <text x="580" y="200" font-size="16">Neural Processing Array</text>
+    <g transform="translate(520,120)">
+        <rect width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect x="70" width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect x="140" width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect x="210" width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect y="70" width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect x="70" y="70" width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect x="140" y="70" width="50" height="50" fill="#90EE90" stroke="#000"/>
+        <rect x="210" y="70" width="50" height="50" fill="#90EE90" stroke="#000"/>
+    </g>
+    
+    <!-- Power Distribution System -->
+    <rect x="150" y="350" width="700" height="100" fill="#FFB6C1" stroke="#000"/>
+    <text x="400" y="400" font-size="16">Power Distribution System</text>
+    
+    <!-- Storage Arrays -->
+    <rect x="150" y="500" width="200" height="200" fill="#DDA0DD" stroke="#000"/>
+    <text x="180" y="600" font-size="14">Quantum Memory</text>
+    
+    <rect x="400" y="500" width="200" height="200" fill="#E6E6FA" stroke="#000"/>
+    <text x="440" y="600" font-size="14">Neural Storage</text>
+    
+    <rect x="650" y="500" width="200" height="200" fill="#D8BFD8" stroke="#000"/>
+    <text x="680" y="600" font-size="14">Reality Engine Storage</text>
+    
+    <!-- Cooling Distribution -->
+    <path d="M 50 0 L 950 0" stroke="#00BFFF" stroke-width="4" transform="translate(0,320)"/>
+    <text x="420" y="310" font-size="12">Primary Cooling Distribution</text>
+    
+    <!-- Network Connections -->
+    <path d="M 50 0 L 950 0" stroke="#32CD32" stroke-width="2" transform="translate(0,340)"/>
+    <text x="420" y="335" font-size="12">High-Speed Network Backbone</text>
+</svg>

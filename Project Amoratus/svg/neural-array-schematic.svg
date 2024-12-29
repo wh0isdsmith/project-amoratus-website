@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main Neural Processing Unit -->
+    <rect x="100" y="100" width="1000" height="700" fill="#fafafa" stroke="#000" stroke-width="2"/>
+    
+    <!-- Neural Core Array -->
+    <g transform="translate(150,150)">
+        <!-- Neural Processing Units -->
+        <g transform="translate(0,0)">
+            <rect width="80" height="80" fill="#98fb98" stroke="#000"/>
+            <text x="25" y="45" font-size="12">NPU 1</text>
+        </g>
+        <g transform="translate(100,0)">
+            <rect width="80" height="80" fill="#98fb98" stroke="#000"/>
+            <text x="25" y="45" font-size="12">NPU 2</text>
+        </g>
+        <g transform="translate(200,0)">
+            <rect width="80" height="80" fill="#98fb98" stroke="#000"/>
+            <text x="25" y="45" font-size="12">NPU 3</text>
+        </g>
+        
+        <!-- Memory Banks -->
+        <g transform="translate(0,200)">
+            <rect width="280" height="40" fill="#b0c4de" stroke="#000"/>
+            <text x="90" y="25" font-size="12">High-Speed Cache</text>
+        </g>
+        
+        <!-- Interconnects -->
+        <path d="M 40 80 L 40 200" stroke="#666" stroke-width="2"/>
+        <path d="M 140 80 L 140 200" stroke="#666" stroke-width="2"/>
+        <path d="M 240 80 L 240 200" stroke="#666" stroke-width="2"/>
+    </g>
+    
+    <!-- Annotations -->
+    <text x="150" y="450" font-size="12" fill="#666">Processing Speed: 10 TFLOPS per NPU</text>
+    <text x="150" y="470" font-size="12" fill="#666">Memory Bandwidth: 900GB/s</text>
+    <text x="150" y="490" font-size="12" fill="#666">Power Draw: 150W per unit</text>
+    
+    <!-- Cooling Channels -->
+    <path d="M 100 300 L 1100 300" stroke="#00bfff" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+    <text x="150" y="290" font-size="12">Liquid Cooling Distribution</text>
+</svg>
