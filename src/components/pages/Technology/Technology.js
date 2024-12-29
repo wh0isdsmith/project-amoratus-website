@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Stage, Layer, Image, Rect, Text, Circle, Group } from 'react-konva';
 import useImage from 'use-image';
 import { Link } from 'react-router-dom';
+import QuantumMindSection from '../../common/QuantumMindSection'; // Updated import path
 
 const QuantumMindSection = () => {
     const [showModal, setShowModal] = useState(false);

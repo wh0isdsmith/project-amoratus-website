@@ -13,7 +13,7 @@ const About = () => {
         <section className="mb-8 flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/3 pr-8 mb-6 md:mb-0">
             <img
-              src="/images/greg-reeves-placeholder.jpg"
+              src="/images/greg-reeves-placeholder.jpg" // Placeholder image added
               alt="Greg Reeves"
               className="rounded-lg shadow-lg"
             />

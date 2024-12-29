@@ -5,7 +5,19 @@ import 'path-to-handwriting-font.css'; // Ensure handwriting font is imported
 const Journal = () => {
   const [filter, setFilter] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [entries, setEntries] = useState([]);
+  const [entries, setEntries] = useState([
+    {
+      category: 'Personal Reflections',
+      date: '2023-11-01',
+      content: 'Today marks the completion of another successful integration of the QuantumMind module. Feeling optimistic about the future.',
+    },
+    {
+      category: 'Technical Observations',
+      date: '2023-11-02',
+      content: 'Observed unexpected behavior in the neural pattern recognition algorithm. Investigating potential causes.',
+    },
+    // ...additional actual entries...
+  ]);
   const [error, setError] = useState(null); // Add error state
   const [dateRange, setDateRange] = useState({ start: '', end: '' }); // Add date range state
 
