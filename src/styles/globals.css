@@ -29,7 +29,7 @@ code {
 
 @layer utilities {
   .bg-neural-pattern {
-    background-image: url('/images/neural-pattern.jpg');
+    background-image: url('../public/images/neural-pattern.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }

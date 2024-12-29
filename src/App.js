@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import PageLayout from './components/layout/PageLayout';
 import Home from './components/pages/Home';
-import Story from './components/pages/Story';
-import Technology from './components/pages/Technology';
-import Journal from './components/pages/Journal';
+import Story from './components/pages/Story/Story';
+import Technology from './components/pages/Technology/Technology';
+import Journal from './components/pages/Journal/Journal';
 import About from './components/pages/About/About';
 
 function App() {
